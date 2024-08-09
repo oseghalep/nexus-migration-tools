@@ -14,7 +14,7 @@ done
 
 # Locate files and exclude specific paths/patterns from being uploaded
 find . -type f \
-    -not -path './uploadscript.sh*' \
+    -not -path './mavenRepoUploadScript.sh*' \
     -not -path '*/\.*' \
     -not -path '*/\^archetype-c atalog\.xml*' \
     -not -path '*/\^maven-metadata-local*\.xml' \
